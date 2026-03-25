@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Scroll animations utilizing IntersectionObserver
     const observerOptions = {
         root: null,
-        rootMargin: '0px',
-        threshold: 0.15
+        rootMargin: '0px 0px -50px 0px',
+        threshold: 0
     };
 
     const nav = document.querySelector('.navbar');
